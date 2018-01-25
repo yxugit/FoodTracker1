@@ -8,13 +8,8 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-    
     // MARK: Properties
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var mealNameLabel: UILabel!
@@ -24,5 +19,20 @@ class ViewController: UIViewController {
         mealNameLabel.text = "Default Text"
     }
     
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Set up text field delegate
+        nameTextField.delegate = self
+    }
+    
+    // MARK: UITextFieldDelegate
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        mealNameLabel.text = textField.text
+    }
 }
 
