@@ -14,6 +14,7 @@
 		ED5A05CF201A3C16000E0F30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5A05CD201A3C16000E0F30 /* LaunchScreen.storyboard */; };
 		ED5A05DA201A3C16000E0F30 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5A05D9201A3C16000E0F30 /* FoodTrackerTests.swift */; };
 		ED70BAAC201B9440004D5AE8 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED70BAAB201B9440004D5AE8 /* RatingControl.swift */; };
+		ED70BAAE201F8A95004D5AE8 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED70BAAD201F8A95004D5AE8 /* Meal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		ED5A05D9201A3C16000E0F30 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		ED5A05DB201A3C16000E0F30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED70BAAB201B9440004D5AE8 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		ED70BAAD201F8A95004D5AE8 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				ED5A05C4201A3C16000E0F30 /* AppDelegate.swift */,
 				ED5A05C6201A3C16000E0F30 /* ViewController.swift */,
+				ED70BAAD201F8A95004D5AE8 /* Meal.swift */,
 				ED70BAAB201B9440004D5AE8 /* RatingControl.swift */,
 				ED5A05C8201A3C16000E0F30 /* Main.storyboard */,
 				ED5A05CB201A3C16000E0F30 /* Assets.xcassets */,
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED70BAAE201F8A95004D5AE8 /* Meal.swift in Sources */,
 				ED5A05C7201A3C16000E0F30 /* ViewController.swift in Sources */,
 				ED70BAAC201B9440004D5AE8 /* RatingControl.swift in Sources */,
 				ED5A05C5201A3C16000E0F30 /* AppDelegate.swift in Sources */,
